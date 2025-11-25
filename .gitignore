@@ -1,0 +1,26 @@
+docs/
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.development.local
+frontend/.env
+frontend/node_modules/
+frontend/.env.local 
+frontend/.env.development.local
+frontend/dist
+frontend/dist-ssr
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store  
+frontend/*.suo
+
+// commandes pour retire un dossier du staging git tout en le gardant localement
+//git rm -r --cached backend/node_modules
